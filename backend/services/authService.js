@@ -27,10 +27,10 @@ exports.login = async (email, password) => {
 function generateToken(user) {
   return jwt.sign(
     {
-      userID: user._id.toString(),
+      userId: user._id.toString(),
       role: user.role,
     },
     process.env.JWT_SECRET,
-    { expiresIn: "1hr" }
+    { expiresIn: "1h" }
   );
 }
