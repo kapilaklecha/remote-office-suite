@@ -11,3 +11,11 @@
 # Pactice: Desturcturing
 
 # TIP: Generate jwt key node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
+
+# Learn: Req, Res pattern
+
+# Learn: how to send complex json response
+
+# TODO: Create a global error handler
+
+# Read: About sentry
